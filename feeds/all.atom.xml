@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Super Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-11-11T00:00:00+00:00</updated><entry><title>Latex in Jupter</title><link href="/latex-in-jupter.html" rel="alternate"></link><published>2020-11-11T00:00:00+00:00</published><updated>2020-11-11T00:00:00+00:00</updated><author><name>xyz</name></author><id>tag:None,2020-11-11:/latex-in-jupter.html</id><summary type="html">&lt;p&gt;The Jupyter Notebook uses MathJax to render LaTeX inside HTML / Markdown. Just put your LaTeX math inside $ $. Or enter in display math mode by writing between &lt;/p&gt;
+&lt;div class="math"&gt;$$ $$&lt;/div&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;To insert a mathematical formula we use the dollar symbol $, as follows:&lt;/p&gt;
+&lt;p&gt;Euler's identity: &lt;span class="math"&gt;\(e^{i \pi} + 1 = 0\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To isolate and center the …&lt;/p&gt;&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary><content type="html">&lt;p&gt;The Jupyter Notebook uses MathJax to render LaTeX inside HTML / Markdown. Just put your LaTeX math inside $ $. Or enter in display math mode by writing between &lt;/p&gt;
+&lt;div class="math"&gt;$$ $$&lt;/div&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;To insert a mathematical formula we use the dollar symbol $, as follows:&lt;/p&gt;
+&lt;p&gt;Euler's identity: &lt;span class="math"&gt;\(e^{i \pi} + 1 = 0\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To isolate and center the formulas and enter in math display mode, we use 2 dollars symbol:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+...
+$$&lt;/div&gt;
+&lt;p&gt;Euler's identity: &lt;/p&gt;
+&lt;div class="math"&gt;$$ e^{i \pi} + 1 = 0 $$&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Articles"></category><category term="Latex jupyter"></category></entry><entry><title>Prime number finder in python</title><link href="/primes-list.html" rel="alternate"></link><published>2020-03-21T16:00:00+00:00</published><updated>2020-03-21T16:00:00+00:00</updated><author><name>dementedmind</name></author><id>tag:None,2020-03-21:/primes-list.html</id><summary type="html">&lt;p&gt;Find all the prime numbers in a composite number with python.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Extract all the prime number from a composite number with python&lt;/h2&gt;
+&lt;p&gt;This is a quick article to show you how to create an algorithm to extract all the prime numbers from a composite number in Python.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Frist Blog&lt;/span&gt;
+&lt;span class="c1"&gt;### Algorithm&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;primes_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+        &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;N&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;primes_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;primes_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;[2, 2, 3]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Articles"></category><category term="maths"></category><category term="python"></category></entry><entry><title>An article about Pelican</title><link href="/an-article-about-pelican.html" rel="alternate"></link><published>2019-10-20T11:20:00+00:00</published><updated>2019-10-20T11:20:00+00:00</updated><author><name>Antonello</name></author><id>tag:None,2019-10-20:/an-article-about-pelican.html</id><content type="html">&lt;h2&gt;Using Pelican to generate static files&lt;/h2&gt;
+&lt;p&gt;In this post we'll see how to use Pelican to generate a static file&lt;/p&gt;</content><category term="Articles"></category><category term="pelican"></category><category term="tutorial"></category></entry><entry><title>An article about Python</title><link href="/an-article-about-python.html" rel="alternate"></link><published>2019-10-20T11:20:00+00:00</published><updated>2019-10-20T11:20:00+00:00</updated><author><name>Antonello</name></author><id>tag:None,2019-10-20:/an-article-about-python.html</id><content type="html">&lt;h2&gt;Using Python to generate static files&lt;/h2&gt;
+&lt;p&gt;In this post we'll see how to use Pelican to generate a static file using python&lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="tutorial"></category></entry><entry><title>An article about Python1</title><link href="/an-article-about-python1.html" rel="alternate"></link><published>2019-10-20T11:20:00+00:00</published><updated>2019-10-20T11:20:00+00:00</updated><author><name>Antonello</name></author><id>tag:None,2019-10-20:/an-article-about-python1.html</id><summary type="html">&lt;h2&gt;Using Python to generate static files&lt;/h2&gt;
+&lt;p&gt;In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Using Python to generate static files&lt;/h2&gt;
+&lt;p&gt;In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python
+In this post we'll see how to use Pelican to generate a static file using python&lt;/p&gt;</content><category term="Articles"></category><category term="Python"></category><category term="tutorial"></category></entry></feed>
